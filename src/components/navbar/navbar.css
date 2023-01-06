@@ -1,0 +1,22 @@
+.nav-item{
+    list-style:none;
+    position:relative;
+    padding-block:.5rem
+    
+  }
+
+  .nav-item::after{
+    content: '';
+    height: 3px;
+    background-color: #4831D4;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width .4s;
+  }
+
+  .nav-item:hover::after{
+    width: 100%;
+  }
+  
