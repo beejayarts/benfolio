@@ -16,7 +16,7 @@ const Hero = () => {
             <button className="btn font-semibold bg-[#FAA632] text-white py-2 px-8 rounded border text-center shadow transition duration-200 ease-in-out transform hover:-translate-y-px hover:shadow-md cursor-pointer" type="button">Hire me</button>
             <a className="btn btn bg-mygray text-white font-semibold py-2 px-8 rounded border text-center  transition duration-200 ease-in-out transform hover:-translate-y-px hover:shadow-md cursor-pointer " href="#" type="button">Download Resume</a>
         </div>
-      </div>
+      </div> 
       <div className="hero-right w-1/2">
         <img src={devimg} alt="" className="hero_vector" />
       </div>

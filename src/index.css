@@ -7,3 +7,14 @@
 *{
   font-family: 'Manrope';
 }
+
+body{
+  overflow-x: hidden;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+html,body{
+  scroll-behavior: smooth;
+}
